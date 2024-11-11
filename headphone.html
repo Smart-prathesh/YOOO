@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PowerBank Store</title>
+    <link rel="stylesheet" href="boot/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        /* Basic styling */
+        .container { width: 90%; max-width: 1200px; margin: 0 auto; }
+        .hero { background-color: #f4f4f4; padding: 20px; text-align: center; }
+        .products, .categories, .reviews { display: flex; flex-wrap: wrap; gap: 20px; }
+        .product, .category, .review { flex: 1 1 calc(33.333% - 20px); padding: 20px; background: #f9f9f9; border-radius: 5px; }
+        h2 { color: #333; }
+        a { color: #0066cc; text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        
+        
+    </style>
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg">
+        <a class="navbar-brand" href="#">YOO MOBILES</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="YOO.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="services.html">Services</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signin.html">Signin</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <h2>Find the Perfect Head Phones for Your Needs</h2>
+        <p> Dolby Audio, Best quality, compact designs, and more!</p>
+    </section>
+
+    <div class="container">
+
+        <!-- Product Section -->
+        <section id="products">
+            <h2>Featured Products</h2>
+            <div class="products">
+                <div class="product">
+                    <h3>Wired Headphones</h3>
+                    <p>Compact design with high-quality.</p>
+                    <a href="amazon.html">View Details</a>
+                </div>
+                <div class="product">
+                    <h3>Earbuds</h3>
+                    <p>Convenient wireless with ANC & ENC.</p>
+                    <a href="amazon.html">View Details</a>
+                </div>
+        </section>
+
+        
+        <!-- Reviews Section -->
+        <section id="reviews">
+            <h2>Customer Reviews</h2>
+            <div class="reviews">
+                <div class="review">
+                    <h3>Vidhuran</h3>
+                    <p>"Great product, clear sounds, 72 hours on one charge!"</p>
+                </div>
+                <div class="review">
+                    <h3>Sarah K.</h3>
+                    <p>"Love the wireless feature, makes it so easy to use,low latency."</p>
+                </div>
+                <div class="review">
+                    <h3>Vinoth.</h3>
+                    <p>"Highly recommend for outdoor activities."</p>
+                </div>
+            </div>
+        </section>
+
+</body>
+</html>

@@ -1,0 +1,386 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amazon Search Bar Layout</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="boot/bootstrap.min.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background-color: #232f3e;
+            color: white;
+            padding: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .header img {
+            width: 80px;
+        }
+        .search-bar {
+            display: flex;
+            align-items: center;
+            width: 100%;
+            max-width: 600px;
+            background-color: white;
+            border-radius: 5px;
+            overflow: hidden;
+        }
+        .search-bar input {
+            border: none;
+            padding: 10px;
+            width: 100%;
+            font-size: 1em;
+        }
+        .search-bar button {
+            background-color: #f0c14b;
+            border: none;
+            padding: 10px;
+            cursor: pointer;
+        }
+        .location {
+            padding: 10px;
+            background-color: #f3f3f3;
+            color: #555;
+            display: flex;
+            align-items: center;
+        }
+        .container{
+            box-sizing: border-box 200px;
+            border: 1px solid #ddd;
+            padding: 6px;
+            margin-top: 15px;
+            margin-left: 30px;
+            width: 300px;
+        
+        }
+        .content {
+            display: flex;
+            gap: 30px;
+        }
+        .review-button {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #e60000;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: orange;
+            color: #fff;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <div class="header">
+        <img src="img/amazon-logo.jpg" alt="Amazon Logo">
+        <div class="search-bar">
+            <input type="text" placeholder="Search" value="YOO Mobiles">
+        </div>
+        <div class="d-flex">
+            <a href="signin.html" class="btn btn-outline-light ms-3">Sign In</a>
+        </div>
+    </div>
+
+    <!-- Location -->
+    <div class="location">
+        Delivering to Sivakasi 626189 - <a href="#">Update location</a>
+    </div>
+
+</div> 
+
+<div class="content">
+    <div class="container">
+        <div class="title">YOO v1</div>
+        <img src="img/v1.jpg" alt="YOO v1" width="200">
+        <div class="specs-list">
+            <div class="spec">
+                <span>6.22" | </span>
+                <span>1080x2340 pixels</span>
+            </div>
+            <div class="spec">
+                <span>16 MP | </span>
+                <span>1080p</span>
+            </div>
+            <div class="spec">
+                <span>6GB RAM | </span>
+                <span>Snapdragon 4 gen 2</span>
+            </div>
+            <div class="spec">
+                <span>5000mAh | </span>
+                <span>25W</span>
+            </div>
+        </div>
+        <a href="v1.html" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+
+    <div class="container">
+        <div class="title">YOO v2</div>
+        <img src="img/v2.jpg" alt="YOO v2" width="200">
+        <div class="specs-list">
+            <div class="spec">
+                <span>6.46" | </span>
+                <span>1080x2340 pixels</span>
+            </div>
+            <div class="spec">
+                <span>48 MP | </span>
+                <span>4k @60fps</span>
+            </div>
+            <div class="spec">
+                <span>8GB RAM | </span>
+                <span>Snapdragon 6 gen 1</span>
+            </div>
+            <div class="spec">
+                <span>6000mAh | </span>
+                <span>44W</span>
+            </div>
+        </div>
+        <a href="v2.html" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+
+    <div class="container">
+        <div class="title">YOO v3</div>
+        <img src="img/v3.jpg" alt="YOO v3" width="200">
+        <div class="specs-list">
+            <div class="spec">
+                <span>6.76" |</span>
+                <span>1080x2340 pixels</span>
+            </div>
+            <div class="spec">
+                <span>108 MP |</span>
+                <span>4k @120fps</span>
+            </div>
+            <div class="spec">
+                <span>12GB RAM |</span>
+                <span>Snapdragon 8 gen 1</span>
+            </div>
+            <div class="spec">
+                <span>6000mAh |</span>
+                <span>80W</span>
+            </div>
+        </div>
+        <a href="v3.html" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+
+
+
+    <div class="container">
+        <div class="title">YOO v1 <strong>Student Edition</strong></div>
+        <img src="img/v1.jpg" alt="YOO v1" width="200">
+        <div class="specs-list">
+            <div class="spec">
+                <span>6.22" | </span>
+                <span>1080x2340 pixels</span>
+            </div>
+            <div class="spec">
+                <span>16 MP | </span>
+                <span>1080p</span>
+            </div>
+            <div class="spec">
+                <span>8GB RAM | </span>
+                <span>Snapdragon 4 gen 2</span>
+            </div>
+            <div class="spec">
+                <span>6000mAh | </span>
+                <span>25W</span>
+            </div>
+        </div>
+        <a href="v1.html" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+
+    <div class="container">
+        <div class="title">YOO v2 <strong>Student Edition</strong></div>
+        <img src="img/v2.jpg" alt="YOO v2" width="200">
+        <div class="specs-list">
+            <div class="spec">
+                <span>6.46" | </span>
+                <span>1080x2340 pixels</span>
+            </div>
+            <div class="spec">
+                <span>48 MP | </span>
+                <span>4k @60fps</span>
+            </div>
+            <div class="spec">
+                <span>8GB RAM | </span>
+                <span>Snapdragon 6 gen 1</span>
+            </div>
+            <div class="spec">
+                <span>6000mAh | </span>
+                <span>44W</span>
+            </div>
+        </div>
+        <a href="v2.html" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+</div>
+
+
+
+
+
+
+
+<div class="content">
+    <div class="container">
+        <div class="title">YOO v1</div>
+        <img src="img/v1.jpg" alt="YOO v1" width="200">
+        <div class="specs-list">
+            <div class="spec">
+                <span>6.22" | </span>
+                <span>1080x2340 pixels</span>
+            </div>
+            <div class="spec">
+                <span>16 MP | </span>
+                <span>1080p</span>
+            </div>
+            <div class="spec">
+                <span>6GB RAM | </span>
+                <span>Snapdragon 4 gen 2</span>
+            </div>
+            <div class="spec">
+                <span>5000mAh | </span>
+                <span>25W</span>
+            </div>
+        </div>
+        <a href="v1.html" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+
+    <div class="container">
+        <div class="title">YOO v2</div>
+        <img src="img/v4.jpg" alt="YOO v2" width="200">
+        <div class="specs-list">
+            <div class="spec">
+                <span>6.46" | </span>
+                <span>1080x2340 pixels</span>
+            </div>
+            <div class="spec">
+                <span>48 MP | </span>
+                <span>4k @60fps</span>
+            </div>
+            <div class="spec">
+                <span>8GB RAM | </span>
+                <span>Snapdragon 6 gen 1</span>
+            </div>
+            <div class="spec">
+                <span>6000mAh | </span>
+                <span>44W</span>
+            </div>
+        </div>
+        <a href="v2.html" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+
+    <div class="container">
+        <div class="title">YOO Headphone h1</div>
+        <img src="img/hp.jpg" alt="YOO v3" width="200">
+        <br>
+        <div class="specs-list">
+            <div class="spec">
+                <span>4mm Drive |</span>
+                <span>Dual magnet</span>
+            </div>
+            <div class="spec">
+                <span>ANC & ENC|</span>
+                <span>4 Mics</span>
+            </div>
+            <div class="spec">
+                <span>Boost Mode |</span>
+                <span>Safe Made</span>
+            </div>
+            <div class="spec">
+                <span>30 days battery backup |</span>
+                <span>type-c</span>
+            </div>
+        </div>
+        <a href="#" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+
+
+
+    <div class="container">
+        <div class="title">YOO Power Bank eb v1</div>
+        <img src="img/pb (1).jpg" alt="YOO v1" width="200">
+        <div class="specs-list">
+            <div class="spec">
+                <span>10000mAh | </span>
+                <span>25W</span>
+            </div>
+        </div>
+        <a href="#" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+
+    <div class="container">
+        <div class="title">YOO Charger 25W</div>
+        <img src="img/cg.jpg" alt="YOO v2" width="200">
+        <div class="specs-list">
+            <br>
+            <div class="spec">
+                <span>25 W | </span>
+                <span>VOOC</span>
+            </div>
+            <div class="spec">
+                <span>1 x type-c | </span>
+                <span>1 x type A</span>
+            </div>
+            <div class="spec">
+                <span>5W/ 9W/ 12W / </span>
+                <span> 15W/ 25W</span>
+            </div>
+            <div class="spec">
+                <span>MAX INPUT 240V | </span>
+                <span>5 A</span>
+            </div>
+            <div class="spec">
+                <span>Support multiple </span>
+                <span> charging</span>
+            </div>
+        </div>
+        <a href="#" class="review-button">MORE DETAILS</a>
+        <br>
+        <br>
+        <a href="signin.html" class="button">Buy Now</a>
+    </div>
+</div>
+</body>
+</html>
